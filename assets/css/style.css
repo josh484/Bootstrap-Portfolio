@@ -57,3 +57,7 @@ body h1, h2, h3, h4, h5, h6, a, p{
 .bdC {
     border-color: var(--maincolor4) !important;
 }
+
+.listSkills ul li{
+    width: 10%;
+}
