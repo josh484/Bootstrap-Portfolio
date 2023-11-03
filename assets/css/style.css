@@ -1,8 +1,8 @@
 :root{
-    --maincolor1: #F4F1DE;
-    --maincolor2: #E07A5F;
-    --maincolor3: #3D405B;
-    --maincolor4: #81B29A;
+    --maincolor1: #fff5d7;
+    --maincolor2: #ff6b72;
+    --maincolor3: #2e1728;
+    --maincolor4: #dfa19d;
 }
 
 body {
@@ -13,14 +13,12 @@ nav {
     background-color: var(--maincolor2);
 }
 
-nav .container-fluid {
-    background-color: var(--maincolor2);
-}
 
 body h1, h2, h3, h4, h5, h6, a, p{
     color: var(--maincolor3) !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
+
 
 
 .jumboPicture img{
