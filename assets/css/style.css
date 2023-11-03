@@ -19,11 +19,13 @@ body h1, h2, h3, h4, h5, h6, a, p{
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
-
+.myWork{
+    background-color: #e4c38c;
+}
 
 .jumboPicture img{
-    width: 170px;
-    height: 200px;
+    width: 300px;
+    height: 400px;
 }
 
 .mainWork  {
@@ -60,4 +62,8 @@ body h1, h2, h3, h4, h5, h6, a, p{
     width: 10%;
     text-align: center;
     word-wrap: break-word;
+}
+
+.futureSkills{
+    background-color: #edc6aa;
 }
