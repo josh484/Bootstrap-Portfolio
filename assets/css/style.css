@@ -28,6 +28,25 @@ body h1, h2, h3, h4, a, p{
     height: 200px;
 }
 
-.work1  {
+.mainWork  {
     background-image: url(https://placehold.co/600x400);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sideWork1  {
+    background-image: url(https://placehold.co/600x400);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sideWork2  {
+    background-image: url(https://placehold.co/600x400);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sideWork3  {
+    background-image: url(https://placehold.co/600x400);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
