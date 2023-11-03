@@ -17,7 +17,7 @@ nav .container-fluid {
     background-color: var(--maincolor2);
 }
 
-body h1, h2, h3, h4, a, p{
+body h1, h2, h3, h4, h5, h6, a, p{
     color: var(--maincolor3) !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
@@ -52,4 +52,8 @@ body h1, h2, h3, h4, a, p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
+}
+
+.bdC {
+    border-color: var(--maincolor4) !important;
 }
