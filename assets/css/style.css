@@ -1,7 +1,23 @@
 :root{
-
+    --maincolor1: #F4F1DE;
+    --maincolor2: #E07A5F;
+    --maincolor3: #3D405B;
+    --maincolor4: #81B29A;
 }
 
-.navbar-nav {
-    float: right;
+body {
+    background-color: var(--maincolor1);
+}
+
+nav {
+    background-color: var(--maincolor2);
+}
+
+nav .container-fluid {
+    background-color: var(--maincolor2);
+}
+
+body h1, h2, h3, a, p {
+    color: var(--maincolor3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
