@@ -39,14 +39,17 @@ body h1, h2, h3, h4, a, p{
     background-image: url(https://placehold.co/600x400);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
 }
 .sideWork2  {
     background-image: url(https://placehold.co/600x400);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
 }
 .sideWork3  {
     background-image: url(https://placehold.co/600x400);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 200px;
 }
