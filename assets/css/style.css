@@ -68,3 +68,9 @@ body h1, h2, h3, h4, h5, h6, a, p{
 .futureSkills{
     background-color: #edc6aa;
 }
+
+.contactMe{
+    background-color: #edc6aa;
+    border: none;
+    border-bottom: solid;
+}
