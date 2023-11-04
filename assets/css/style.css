@@ -28,27 +28,31 @@ body h1, h2, h3, h4, h5, h6, a, p{
     height: 400px;
 }
 
+.bdC h5, .bdC p{
+    color: white !important;
+}
+
 .mainWork  {
-    background-image: url(https://placehold.co/600x400);
+    background-image: url(../images/horiseon-seo.png);
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .sideWork1  {
-    background-image: url(https://placehold.co/600x400);
+    background-image: url(../images/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
 }
 .sideWork2  {
-    background-image: url(https://placehold.co/600x400);
+    background-image: url(../images/christian-wiediger-WkfDrhxDMC8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
 }
 .sideWork3  {
-    background-image: url(https://placehold.co/600x400);
+    background-image: url(../images/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
