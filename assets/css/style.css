@@ -12,7 +12,9 @@ body {
 nav {
     background-color: var(--maincolor2);
 }
-
+.bkDrop a:hover {
+    background-color: yellow;
+}
 
 body h1, h2, h3, h4, h5, h6, a, p{
     color: var(--maincolor3) !important;
