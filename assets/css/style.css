@@ -1,3 +1,4 @@
+/* Main Colours Used */
 :root{
     --maincolor1: #fff5d7;
     --maincolor2: #ff6b72;
@@ -6,30 +7,34 @@
     --maincolor5: #edc6aa;
 }
 
+/* CSS Body */
 body {
     background-color: var(--maincolor1);
-    padding: 0;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/* CSS Navigation bad */
 nav {
     background-color: var(--maincolor2);
 }
+/* Nav Link Colour Change */
 .bkDrop a:hover {
     background-color: var(--maincolor5);
 }
+/* Button Shadow */
 .btnShadow {
     box-shadow: 10px 5px 5px black;
 }
 
+/* CSS Font Style and Color for document */
 body h1, h2, h3, h4, h5, h6, a, p{
     color: var(--maincolor3) !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
+/* Colour for my Work Section */
 .myWork{
     background-color: #e4c38c;
 }
@@ -38,19 +43,21 @@ body h1, h2, h3, h4, h5, h6, a, p{
     width: 300px;
     height: 400px;
 }
-
+/* White text for image content */
 .bdC h5, .bdC p{
     color: white !important;
 }
+/* Border Colour */
 .bdC {
     border-color: var(--maincolor4) !important;
 }
 
+/* Background colour for text */
 .textBk{
     background-color: rgba(255, 99, 71, 0.3);
 }
 
-
+/* CSS Grid Images */
 .mainWork  {
     background-image: url(../images/horiseon-seo.png);
     height: 400px;
@@ -79,7 +86,7 @@ body h1, h2, h3, h4, h5, h6, a, p{
 }
 
 
-
+/* CSS for skills list */
 .listSkills ul li{
     width: 10%;
     text-align: center;
@@ -92,12 +99,15 @@ body h1, h2, h3, h4, h5, h6, a, p{
     background-color: var(--maincolor5);
 }
 
+/* CSS Contact Information */
 .contactMe{
     background-color: var(--maincolor5);
     border: none;
     border-bottom: solid;
 }
 
+
+/* Footer Elements */
 footer {
     background-color: var(--maincolor2);
     position: relative;
@@ -112,6 +122,8 @@ footer h2::after{
     content: "👨‍💻"
 }
 
+
+/* Just change size of the main work image on smaller device */
 @media only screen and (max-width: 800px) {
     .mainWork  {
         height: 300px;
