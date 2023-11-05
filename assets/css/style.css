@@ -3,6 +3,7 @@
     --maincolor2: #ff6b72;
     --maincolor3: #2e1728;
     --maincolor4: #dfa19d;
+    --maincolor5: #edc6aa;
 }
 
 body {
@@ -18,7 +19,10 @@ nav {
     background-color: var(--maincolor2);
 }
 .bkDrop a:hover {
-    background-color: #edc6aa;
+    background-color: var(--maincolor5);
+}
+.btnShadow {
+    box-shadow: 10px 5px 5px black;
 }
 
 body h1, h2, h3, h4, h5, h6, a, p{
@@ -81,14 +85,15 @@ body h1, h2, h3, h4, h5, h6, a, p{
     text-align: center;
     overflow: hidden;
     word-break: break-word;
+    background-color: var(--maincolor2);
 }
 
 .futureSkills{
-    background-color: #edc6aa;
+    background-color: var(--maincolor5);
 }
 
 .contactMe{
-    background-color: #edc6aa;
+    background-color: var(--maincolor5);
     border: none;
     border-bottom: solid;
 }
