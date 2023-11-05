@@ -7,6 +7,11 @@
 
 body {
     background-color: var(--maincolor1);
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 nav {
@@ -33,10 +38,18 @@ body h1, h2, h3, h4, h5, h6, a, p{
 .bdC h5, .bdC p{
     color: white !important;
 }
+.bdC {
+    border-color: var(--maincolor4) !important;
+}
+
+.textBk{
+    --bs-bg-opacity: .5;
+}
+
 
 .mainWork  {
     background-image: url(../images/horiseon-seo.png);
-    height: 300px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -46,6 +59,7 @@ body h1, h2, h3, h4, h5, h6, a, p{
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
+
 }
 .sideWork2  {
     background-image: url(../images/christian-wiediger-WkfDrhxDMC8-unsplash.jpg);
@@ -60,9 +74,7 @@ body h1, h2, h3, h4, h5, h6, a, p{
     height: 200px;
 }
 
-.bdC {
-    border-color: var(--maincolor4) !important;
-}
+
 
 .listSkills ul li{
     width: 10%;
@@ -93,4 +105,10 @@ footer {
 
 footer h2::after{
     content: "👨‍💻"
+}
+
+@media only screen and (max-width: 800px) {
+    .mainWork  {
+        height: 300px;
+    }
 }
