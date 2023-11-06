@@ -106,6 +106,9 @@ body h1, h2, h3, h4, h5, h6, a, p{
     border-bottom: solid;
 }
 
+.contactMe a:hover{
+    background-color: var(--maincolor2);
+}
 
 /* Footer Elements */
 footer {
@@ -121,6 +124,8 @@ footer {
 footer h2::after{
     content: "👨‍💻"
 }
+
+
 
 
 /* Just change size of the main work image on smaller device */
