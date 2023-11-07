@@ -107,14 +107,7 @@ body h1, h2, h3, h4, h5, h6, a, p{
 }
 
 .socials {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.socials .card-transparent{
     width: 3rem;
-    height: 3rem;
 }
 
 /* Footer Elements */
