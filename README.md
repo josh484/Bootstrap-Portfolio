@@ -29,9 +29,7 @@ Here are a list of features for my website.
 - My Work cards uses m-0 and p-0 are used to make sure background for text reaches 100% width. Flex on bootstrap is also used to keep text at the bottom.
 - On small screens my Work section becomes a single column for easier scrolling. 
 ![Mobile myWork](assets/images/mywork-mobile.png)
-<br/>
 - About me section contains a list with all the skills that I have and will learn throughout the bootcamp with checks and crosses.
 - Contact me section which the last 3 are meant to link to their respective website when clicked, first 2 are popovers which show my email and phone as shown below:
-<br/>
 ![Contact Section Popovers](assets/images/contact-me-example.png)
 
