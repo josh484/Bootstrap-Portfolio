@@ -110,6 +110,15 @@ body h1, h2, h3, h4, h5, h6, a, p{
     width: 3rem;
 }
 
+.socials1 .btn{
+    width: 3rem;
+    background-color: transparent !important;
+    border: none;
+    padding: 0;
+}
+
+
+
 /* Footer Elements */
 footer {
     background-color: var(--maincolor2);
