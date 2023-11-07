@@ -184,26 +184,37 @@
                             </div>
                         </div>
                         <div class="d-flex flex-row justify-content-center m-0 p-0 col-lg-12">
-                        <div class="card-transparent socials">
-                            <img class="card-img-top rounded-circle " src="./assets/images/4550857_email_gmail_mail_sending_yahoo_icon.png" alt="Email">
-                        </div>
-                        <div class="card-transparent socials">
-                            <img class="card-img-top rounded-circle" src="./assets/images/2644991_media_messenger_social_whatsapp_icon.png" alt="Phone">
-                        </div>
-                        <div class="card-transparent socials">
-                            <img class="card-img-top rounded-circle" src="./assets/images/5279114_linkedin_network_social network_linkedin logo_icon.png" alt=":LinkedIn">
-                        </div>
-                        <div class="card-transparent socials">
-                            <img class="card-img-top rounded-circle" src="./assets/images/291716_github_logo_social network_social_icon.png" alt="GitHub">
-                        </div>
-                        <div class="card-transparent socials">
-                            <img class="card-img-top rounded-circle" src="./assets/images/621252_rounded_spotify_icon.png" alt="spotify">
-                        </div>
+                            <div class="card-transparent socials">
+                                    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
+                                        title="Popover title"
+                                        data-bs-content="And here's some amazing content. It's very engaging. Right?">
+                                        <img class="card-img-top rounded-circle" src="./assets/images/4550857_email_gmail_mail_sending_yahoo_icon.png" alt="Email">
+                                    </button>
+                            </div>
+                            <div class="card-transparent socials">
+                                <img class="card-img-top rounded-circle"
+                                    src="./assets/images/2644991_media_messenger_social_whatsapp_icon.png" alt="Phone">
+                            </div>
+                            <div class="card-transparent socials">
+                                <img class="card-img-top rounded-circle"
+                                    src="./assets/images/5279114_linkedin_network_social network_linkedin logo_icon.png"
+                                    alt=":LinkedIn">
+                            </div>
+                            <div class="card-transparent socials">
+                                <img class="card-img-top rounded-circle"
+                                    src="./assets/images/291716_github_logo_social network_social_icon.png"
+                                    alt="GitHub">
+                            </div>
+                            <div class="card-transparent socials">
+                                <img class="card-img-top rounded-circle"
+                                    src="./assets/images/621252_rounded_spotify_icon.png" alt="spotify">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
     <footer>
         <h2>Created by Joshua Mendoza</h2>
@@ -214,6 +225,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
 </body>
 
 </html>
